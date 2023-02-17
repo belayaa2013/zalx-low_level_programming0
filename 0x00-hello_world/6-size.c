@@ -1,11 +1,10 @@
 #include <stdio.h>
-int main(void)
 /**
- * main - prints the size of datas
+ * main - A program that prints the size of datas
  * Return: 0(success)
-*/
-{
-	char a;
+ */
+int main(void)
+{	char a;
 	int b;
 	long int c;
 	long long int d;

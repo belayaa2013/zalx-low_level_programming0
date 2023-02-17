@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main(void)
-/* main funcrion prints out the size of data */
+/**
+ * main - prints the size of datas
+ * Return: 0(success)
+*/
 {
 	char a;
 	int b;

@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * puts also do like printf
- * but not all
+ * main a program that prints a line using puts function
+ * Return: 0(success)
  */
 int main(void)
 {
 puts("\"programming is like building a multilingual puzzle");
 return (0);
-} 
+}

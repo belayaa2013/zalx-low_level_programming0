@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * int add - a function that adds two numbers
+ * add - a function that adds two numbers
+ * @i: integral number
+ * @j: any integer number
  * Return:  result of add will be reterned
  */
 int add(int i, int j)

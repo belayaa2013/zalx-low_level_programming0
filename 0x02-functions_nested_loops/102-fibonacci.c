@@ -7,23 +7,23 @@ long int main(void)
 {
 	long int n, i, j, sum;
 
-	n = 1;
+	n = 0;
 
 	i = 1;
 	j = 2;
 	sum = i + j;
 
-	printf("%ld, %ld, ", i, j);
-	while (n < 49)
+	printf("%lu, %lu, ", i, j);
+	while (n < 50)
 	{
 		sum = i + j;
-		if (n < 48)
+		if (n < 49)
 		{
-			printf("%ld, ", sum);
+			printf("%lu, ", sum);
 		}
 		else
 		{
-			printf("%ld\n", sum);
+			printf("%lu\n", sum);
 		}
 		i = j;
 		j = sum;

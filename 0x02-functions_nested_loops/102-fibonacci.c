@@ -9,17 +9,17 @@ int main(void)
 
 	long int i, j,  sum;
 
-	n = 0;
+	n = 1;
 
 	i = 1;
 	j = 2;
 	sum = i + j;
 
 	printf("%lu, %lu, ", i, j);
-	while (n < 50)
+	while (n < 49)
 	{
 		sum = i + j;
-		if (n < 49)
+		if (n < 48)
 		{
 			printf("%lu, ", sum);
 		}

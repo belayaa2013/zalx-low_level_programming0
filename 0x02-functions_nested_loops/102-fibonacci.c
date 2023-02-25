@@ -3,9 +3,11 @@
  * main - a function that prints 50 fibonacci numbers starting from 1 and 2
  * Return: 0(success)
  */
-long int main(void)
+int main(void)
 {
-	long int n, i, j, sum;
+	int n;
+
+	long int i, j,  sum;
 
 	n = 0;
 

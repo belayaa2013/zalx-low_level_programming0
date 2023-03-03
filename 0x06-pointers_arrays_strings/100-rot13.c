@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rot13 _ a function that replaces a letter with 13th letter
+ * rot13 - a function that replaces a letter with 13th letter
  * @s: the array os string to be replaced
  * Return: return the string
  */

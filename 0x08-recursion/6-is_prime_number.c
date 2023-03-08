@@ -9,7 +9,7 @@ int check_num(int n, int i)
 {
 	if (i == n - 1)
 	{
-		return (-1);
+		return (1);
 	}
 	else if (n % i == 0)
 	{

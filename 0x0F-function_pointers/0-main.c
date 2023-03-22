@@ -3,10 +3,8 @@
 /**
  * print_name_as_is - prints a name as is
  * @name: name of the person
- *@f: pointer function
  * Return: Nothing.
  */
-void print_name(char *name, void (*f)(char *));
 void print_name_as_is(char *name)
 {
 	printf("Hello, my name is %s\n", name);

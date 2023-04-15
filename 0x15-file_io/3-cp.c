@@ -1,6 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+void close_file(int Fd);
+char *create_fil(char *file);
 /**
  * create_fil - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer.
